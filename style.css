@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-area{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    width: 0%;
+    height: 90%;
+    padding: 40%;
+    box-sizing: border-box;
+    background: rgba(red, green, blue, alpha);
+    border-radius: 20px;
+}
+h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.form-area p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+}
+
+.form-area input, select{
+    margin-bottom: 25px;
+    width: 250px;
+}
+
+.form-area input[type=text],
+.form-area input[type=password]{
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    display: 16px;
+}
+
+::placeholder{
+    color: darkgray;
+}
+
+.form-area select{
+    margin-top: 20px;
+    padding: 10px, 0;
+}
+
+.form-areas input[type=submit]{
+    border: none;
+    height: 40px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    background-color: indianred;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.form-area input[type=submit]:hover{
+    background-color: dimgray;
+    color: rgb(red, green, blue);
+}
+.form-area a{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.heading{
+    margin: 300px;
+    padding: 230px;
+    margin-top: auto;
+    margin-right: 800px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
